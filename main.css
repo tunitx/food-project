@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .border-gradient {
+    border-image: linear-gradient(to top, transparent, rgba(207, 159, 255), transparent) 1;
+  }
+
+  .image-container {
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1); 
+  }
+
+  .card-1:hover{
+    transition: transform 0.5s ease; 
+    transform: scale(1.05);
+  }
+  .card-2:hover{
+    transition: transform 0.5s ease; 
+    transform: scale(1.05);
+  }
+
+  .dish-name:hover{
+    transition: transform 0.5s ease; 
+    transform: scale(1.1);
+  }
+
+  .front-house:hover{
+    transition: transform 0.5s ease; 
+    transform: scale(1.1);
+  }
+
+  .back-house:hover{
+    transition: transform 0.5s ease; 
+    transform: scale(1.1);
+  }
+  
+  
+
+  /* .gradient-border-all {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b, #ffdc7e, #a5eb8d, #8ed2ff, #a584ff, #ff8ed7, #ff7e5f) 1;
+  } */
